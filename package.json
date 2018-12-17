@@ -1,0 +1,14 @@
+{
+  "name": "python-executor",
+  "version": "1.0.0",
+  "description": "python code executor in separate docker container",
+  "main": "src/Executor.js",
+  "author": "Stanislav Dushkin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.x"
+  },
+  "dependencies": {
+    "dockerode": "^2.5.7"
+  }
+}

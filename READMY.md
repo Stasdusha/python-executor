@@ -1,0 +1,16 @@
+A simple executor of code on python.
+
+Example
+```javascript
+const Executor = require('./Executor');
+
+
+Executor.prepare(error => {
+  const executor = new Executor('python3') // ['python2', 'python3']
+
+  executor.run('print("This code runed")', err => {
+    executor.onData(data => console.log(data)) // when stdout 
+    executor.onDone(data => console.log(data)) // when code done
+    executor.onError(data => console.log(data)) // when error
+});
+```

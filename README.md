@@ -4,7 +4,7 @@ Each executor works in a separate docker container.
 
 Example
 ```javascript
-const Executor = require('./Executor');
+const Executor = require('python-executor');
 
 
 Executor.prepare(error => {

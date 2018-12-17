@@ -1,5 +1,7 @@
 A simple executor of code on python.
 
+Each executor works in a separate docker container.
+
 Example
 ```javascript
 const Executor = require('./Executor');
